@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📘 RegEx Helper  
+### Online Regex Tester & Builder
 
-## Getting Started
+![OG Image](./public/og-image.png)
 
-First, run the development server:
+## 🚀 Overview
+
+**RegEx Helper** is a modern web application built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.  
+It provides a clean and interactive environment for testing, analyzing, building, and understanding Regular Expressions.
+
+- 🔍 Test regex patterns against text  
+- 🧩 View matches with detailed metadata  
+- 🎨 Highlight matches inside the full text  
+- 📚 Use a built-in pattern library  
+- 🧠 Get auto-generated explanations for each token  
+- 🌙 Light/Dark mode support  
+- ⚡ Instant feedback with debounced inputs  
+
+---
+
+## ✨ Features
+
+### 🔤 Regex Input  
+- Write any RegEx pattern  
+- Enable/disable flags: `g`, `i`, `m`, `s`, `u`, `y`  
+- Monospace editor for clarity  
+
+### 🧪 Test Text  
+- Enter any sample text  
+- Auto line/character counter  
+- Realtime evaluation  
+
+### 🎯 Match Results  
+- Shows:
+  - Match index  
+  - Value  
+  - Start/end offsets  
+  - Captured groups  
+
+### 🖍️ Highlighted Output  
+- Displays the text with visual highlights for each match  
+
+### 📚 Pattern Library  
+Includes common patterns like:
+
+- Email  
+- URL  
+- Phone  
+- Username  
+- Strong Password  
+- Hex Color  
+- HTML Tag  
+- IPv4  
+- Date (YYYY-MM-DD)  
+- Credit Card  
+
+Each item includes:
+- Pattern  
+- Description  
+- “Use Pattern” button  
+- “Copy” button  
+
+### 🧠 Regex Explanation  
+Breaks down the pattern token-by-token and provides human-readable descriptions for:
+
+- Character classes  
+- Groups  
+- Quantifiers  
+- Escapes  
+- Literals  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 14 (App Router)**
+- **React 18**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **lucide-react**
+- **sonner**
+- **next-themes**
+- Deployed with **Vercel**
+
+---
+
+## ⚙️ Installation
 
 ```bash
+git clone https://github.com/mahmoudalshukri/regex-helper
+cd regex-helper
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Your app will be available at:
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⭐ Support the Project
+If you like this tool, consider giving it a ⭐ Star on GitHub!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📬 Contact
+Mahmoud Alshukri
+Full-Stack Developer
+Feel free to reach out for suggestions, issues, or improvements.
