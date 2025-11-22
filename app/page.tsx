@@ -35,7 +35,7 @@ export default function Index() {
             <Button
               variant="outline"
               size="sm"
-              onClick={() => window.open("https://github.com", "_blank")}
+              onClick={() => window.open("https://github.com/mahmoudalshukri/regex-helper", "_blank")}
               className="hidden sm:flex">
               <Github className="w-4 h-4 mr-2" />
               View on GitHub
