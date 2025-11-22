@@ -71,7 +71,7 @@ export default function RegexPlayground() {
 
     try {
       const flagString = Object.entries(flags)
-        .filter(([_, enabled]) => enabled)
+        .filter(([, enabled]) => enabled)
         .map(([flag]) => flag)
         .join("");
 
