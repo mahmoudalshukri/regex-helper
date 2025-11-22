@@ -21,7 +21,7 @@ export const metadata = {
     title: "RegEx Helper – Online Regex Tester & Builder",
     description:
       "Test, build, and understand Regular Expressions with an intuitive UI.",
-    url: "https://your-domain.com",
+    url: "https://regex-helper-zake.vercel.app",
     siteName: "RegEx Helper",
     images: [
       {
